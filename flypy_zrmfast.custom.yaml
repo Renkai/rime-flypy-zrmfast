@@ -47,3 +47,7 @@ patch:
   ##  忘掉之前输入的词（例如 Linux ibus-rime.appimage 的用户），可以尝试开启。
   #translator/db_class: tabledb
 
+patch:
+  "speller/algebra":
+    - derive/([ei])n$/$1ng/            # en => eng, in => ing
+    - derive/([ei])ng$/$1n/            # eng => en, ing =>
