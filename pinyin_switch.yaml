@@ -120,6 +120,9 @@ flypy2zrm:
     - xlit/WYPDKLZXCBN/wypdklzxcbn/
     - xform/^ //
   translator/prism: zrm_zrmfast
+  translator/spelling_hints: 1
+  translator/comment_format:
+    - xform/^[^[]+//
   speller/algebra:
     - xform/^(\w)x/$1W/
     - xform/^(\w)k/$1Y/
