@@ -142,3 +142,8 @@ flypy2zrm:
     - derive/^([jqxy])u/$1v/
     #- xform/[[]// ## 直接引导辅助码
     ##  如果希望无论有无 [ 均可引导，取消注释的同时将 xform 改成 derive
+    ## 模糊音
+    - derive/^(.)y/$1n/
+    - derive/^(.)n/$1y/
+    - derive/^(.)f/$1g/
+    - derive/^(.)g/$1f/
