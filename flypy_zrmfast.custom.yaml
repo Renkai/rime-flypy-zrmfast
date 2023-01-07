@@ -46,8 +46,3 @@ patch:
   ##  用户词典记录为文本格式（默认为二进制）。如果发现重启/部署/同步之后经常
   ##  忘掉之前输入的词（例如 Linux ibus-rime.appimage 的用户），可以尝试开启。
   #translator/db_class: tabledb
-
-patch:
-  "speller/algebra":
-    - derive/([ei])n$/$1ng/            # en => eng, in => ing
-    - derive/([ei])ng$/$1n/            # eng => en, ing =>
