@@ -38,8 +38,8 @@ patch_quanpin:
     # - abbrev/^([zcs]h)\w+([[].+)/$1$2/
     - xform/[!@]//
 
-patch_zrm:
-#patch: ## 部件组字使用自然码双拼
+#patch_zrm:
+patch: ## 部件组字使用自然码双拼
   translator/prism: chaizi_fp2zrm
   speller/algebra:
     - xform/x!/w@/
