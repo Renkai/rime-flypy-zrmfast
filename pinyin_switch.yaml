@@ -140,7 +140,7 @@ flypy2zrm:
     - derive/^(..).+$/$1/
     - derive/^(..[[].).+$/$1/
     - derive/^([jqxy])u/$1v/
-    #- xform/[[]// ## 直接引导辅助码
+    - xform/[[]// ## 直接引导辅助码
     ##  如果希望无论有无 [ 均可引导，取消注释的同时将 xform 改成 derive
     ##  模糊音设置，以 in=ing 为例：
     # - derive/^([^gkhvuirzcs])y/$1n/
